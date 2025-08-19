@@ -84,7 +84,7 @@
       <div id="reader"></div>
     </div>
     <p>Result: <span id="result">Waiting...</span></p>
-    <a href="https://proto1-4p67.onrender.com/download-excel" target="_blank">
+    <a href="https://classroom-attendance-tefa.onrender.com/download-excel" target="_blank">
   <button style="margin-top: 10px; padding: 8px 16px;">⬇️ Download Excel</button>
 </a>
 
@@ -128,7 +128,7 @@
     const formattedTime = formatISTDateTime();
 
     // Send scanned data to server
-    fetch("https://proto1-4p67.onrender.com/scan", {
+    fetch("https://classroom-attendance-tefa.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -166,3 +166,4 @@
 
 </body>
 </html>
+
